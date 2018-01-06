@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/autoschema
+   */site-packages/autoschema
+
+[run]
+branch = true
+source =
+    autoschema
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
